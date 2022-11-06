@@ -1,0 +1,330 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+    /* color: rgb(178, 28, 138);
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #8fca18;
+
+   */
+}
+
+/* navbar */
+
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+
+.navbar{
+	background-color: gray;
+	color: white !important;
+}
+
+.nav-item a{
+	/* color: white !important; */
+    color: white;
+
+  text-shadow: 0 0 3px white, 0 0 5px white;
+  
+    
+}
+
+nav-item a {
+    padding: 1rem 2rem 1.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ebebeb;
+    min-width: 80px;
+    margin: auto;
+  }
+  
+
+
+.nav-item a:hover {
+    background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+    background-size: 100% 100%;
+    color: #27262c;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+    font-weight: bold;
+  }
+  nav-item a:active {
+    transform: translateY(4px);
+  }
+  
+
+.nav-item{
+	padding-left: 2px;
+}
+
+.navbar-brand{
+	/* color: white !important; */
+	padding-left: 100px;
+}
+
+#navbar button{
+	color: white !important;
+}
+
+/* banner */
+
+#banner-container{
+	background:linear-gradient(to bottom,mediumslateblue,lightblue,lightblue,lightblue,mediumslateblue);
+	/* color: white !important; */
+	 padding-top: 80px;
+	padding-bottom: 80px;
+	
+	 
+}
+
+#banner-row img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	padding-left: 30px;
+}
+#banner-row h3{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: center;
+    color: indigo;
+  /*  text-shadow: 0 0 3px red, 0 0 5px rgb(16, 197, 197);
+   
+   /* color: #202020; */
+      
+      letter-spacing: 0.1em;
+      text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+	  animation: mymoves 5s infinite;
+
+
+	}
+	@keyframes mymoves{
+	  50%{letter-spacing: 5px;}
+	 
+}
+
+
+#banner-row p{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: left;
+     
+    text-shadow: 0 0 3px red, 0 0 5px darkolivegreen;
+    color: black;
+    /*letter-spacing: 0.1em;
+    text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636; */
+
+}
+
+#banner-row a{
+	background-color: white !important;
+	color: black !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px;
+    
+	
+}
+#banner-col{
+	padding-left: 20px;
+}
+/* service */
+#service{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	max-width: 100%;
+	}
+
+#service h1{
+	padding-bottom: 70px;
+    color: mediumslateblue;
+  font-size: 50px;
+  text-shadow: 0 0 3px blue, 0 0 5px #8fca18;
+  
+}
+
+
+/*Out Design and development*/
+
+#services h2{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: left;
+	 
+    text-shadow: 0 0 3px white, 0 0 5px green;
+    color: deeppink;
+   
+}
+#services h5{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: left;
+     
+    text-shadow: 0 0 3px red, 0 0 5px darkolivegreen;
+    color: black;
+    /*letter-spacing: 0.1em;
+    text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636; */
+
+}
+#services p{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: left;
+     
+    text-shadow: 0 0 3px gold, 0 0 5px darkolivegreen;
+    color: darkmagenta;
+    /*letter-spacing: 0.1em;
+    text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636; */
+
+}
+
+/* about */
+
+#about{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	max-width: 100%;
+}
+
+#about h1{
+	padding-bottom: 70px;
+    color: cyan;
+  font-size: 50px;
+  text-shadow: 0 0 3px red, 0 0 5px pink;
+  
+}
+
+#about-col ul{
+	padding-top: 50px;
+	padding-left: 10px;
+	
+}
+
+#about-col ul li{
+	padding-top: 15px;
+    text-align: left;
+     text-shadow: 0 0 3px red, 0 0 5px yellow;
+    color: black;
+	
+ 
+	
+}
+
+
+
+/* product */
+
+#product{
+   margin: auto;
+   padding: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+    background-image: linear-gradient(to right,lightyellow,white);
+}
+
+#product h1{
+	padding-bottom: 70px;
+    text-shadow: 0 0 3px orange, 0 0 5px darkolivegreen;
+    color: black;
+}
+
+#product-col2 ul{
+	padding-top: 90px;
+}
+
+#product-col2 ul li{
+	padding-top: 15px;
+    text-shadow: 0 0 3px red, 0 0 5px yellow;
+    color: darkred;
+ 
+}
+
+/* social */
+
+#social{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#social h1{
+	padding-bottom: 70px;
+    text-shadow: 0 0 3px red, 0 0 5px darkolivegreen;
+    color: black;
+}
+
+.social-col a:hover img{
+transform: translateY(-10px);
+}
+
+#social-row{
+	flex-direction: row;
+}
+
+
+/*our team*/
+.card{
+	box-shadow: 0 1px 3px indigo, 0 1px 2px mediumvioletred;
+border-radius: 1%;
+transition: all 0.2s ease-in-out;
+box-sizing: border-box;
+margin-top:10px;
+margin-bottom:10px;
+background-color:#FFF;
+}
+.card-img-top{
+    min-height: 40vh;
+
+}
+.card h1 h5,h6,p{
+	text-align: left;
+    text-shadow: 0 0 3px green, 0 0 5px white;
+    color: black;
+
+}
+ h1{
+
+    text-shadow: 0 0 3px green, 0 0 5px white;
+    color: maroon;
+} 
+
+
+/* footer */
+#footer-container{
+	background-image: conic-gradient(gray,gold,gray);
+}
+
+.mb-3{
+padding-top: 10px;
+max-width: 100%;
+}
+
+
+/* media */
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 987px){
+	#banner-row h3{
+	padding-top: 30px;
+	width:100px;
+}	 
+}
+
+
+
+@media only screen and (max-width: 768px){
+	#banner-row img{
+		padding-top: 20px;
+	}
+
+.social-col{
+	width: 33%;
+}
+
+}
